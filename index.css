@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #EEF0F4;
+    color: #0dbedd;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    max-width: 1200px;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+input {
+    color: #062f36;
+    background-color: #DCE1EB;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    color: #FDFDFD;
+    background-color: #062f36;
+    border: 0;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #040043;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+    zoom: 90%;
+}
+
+ul li {
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 7px 26px rgba(0, 0, 0, 0.3);
+    user-select: none;
+    overflow: hidden;
+    flex-basis: 345px;
+    flex-shrink: 0;
+
+}
+
+ul li:hover {
+    border: 1.5px solid #6dc3fd;
+    background-color: #f6fafd;
+    cursor: pointer;
+    color: #132930;
+}
+
+ul li iframe {
+    width: 110%;
+    height: 540px;
+}
+    
+.encabezado {
+    position: sticky;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+    padding: 0.1px;
+    font-weight: 700;
+    letter-spacing: 4vw;
+    color: #DCE1EB;
+    text-align: center;
+    background-color: #062f36;
+    box-shadow: 1px 7px 26px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    line-height: 1.5;
+
+}
+
+@media screen and (max-width: 600px) {
+    .encabezado {
+        font-size: 4.5vw;       
+    
+    }
+}
+
+img {
+    width: auto;
+    padding-right: 25px;
+    height: 100px;    
+}
+
+a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.irA a button {
+	display: flex;
+	margin-top: 15px;
+	margin-right: 1vw;
+	font-size: 12px;
+	font-style: italic;
+}
